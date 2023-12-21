@@ -1,1 +1,0 @@
-Introducing C programming
