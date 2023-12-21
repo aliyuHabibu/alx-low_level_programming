@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**print_sign - prototype
+/**
+ * print_sign - prototype
  * @n: local var.
  * Return: Always something
  */

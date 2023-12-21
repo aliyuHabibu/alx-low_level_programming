@@ -2,10 +2,6 @@
 
 /**
  * jack_bauer - prototype
- * @x: var 1
- * @i: var 2
- * @n: var 3
- * @r: var 4
  * Return: Nothing
  */
 void jack_bauer(void)
@@ -39,8 +35,7 @@ void jack_bauer(void)
 			}
 			if (x == 2 && i == 3)
 				break;
-			else
-				i++;
+			i++;
 		}
 		x++;
 	}

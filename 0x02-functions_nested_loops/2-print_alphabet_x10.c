@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - prototype
- * @i: local var. 1
- * @c: local var. 2
  * Return: Nothing
  */
 void print_alphabet_x10(void)

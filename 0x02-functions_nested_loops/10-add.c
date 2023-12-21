@@ -2,7 +2,6 @@
 
 /**
  * add - prototype
- * @r: var 1
  * @i: var 2
  * @x: var 3
  * Return: Always something

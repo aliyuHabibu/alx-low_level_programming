@@ -2,11 +2,6 @@
 
 /**
  * times_table - prototype
- * @i: var 1
- * @x: var 2
- * @n: var 3
- * @r: var 4
- * @s: var 5
  * Return: Nothing
  */
 void times_table(void)
@@ -25,7 +20,7 @@ void times_table(void)
 				n = i * x;
 				_putchar(' ');
 				_putchar(n + '0');
-				_putchar(',');	
+				_putchar(',');
 				_putchar(' ');
 			}
 			else if (n / 10 != 0)
@@ -36,7 +31,6 @@ void times_table(void)
 				_putchar(s + '0');
 				_putchar(',');
 				_putchar(' ');
-				
 			}
 			x++;
 		}

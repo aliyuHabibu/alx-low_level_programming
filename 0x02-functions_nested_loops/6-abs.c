@@ -2,16 +2,16 @@
 
 /**
  * _abs - prototype
- * @n: local var.
- * @i: local var.
+ * @n: local var
  * Return: Always something
  */
 int _abs(int n)
 {
 	int i;
+
 	if (n < 0)
 	{
-		i = - n;
+		i = -n;
 		return (i);
 	}
 	else
