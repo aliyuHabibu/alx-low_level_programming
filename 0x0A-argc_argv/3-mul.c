@@ -15,7 +15,10 @@ int main(int argc, char *argv[])
 	while (i < argc)
 	{
 		if (argc < 2)
+		{
 			printf("Error\n");
+			return (1);
+		}
 		else if (i != 0)
 		{
 			while (i < argc)
