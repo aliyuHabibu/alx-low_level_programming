@@ -11,6 +11,11 @@ char *str_concat(char *s1, char *s2)
 	int i, x, r, m, t;
 	char *s;
 
+	if (s1 == NULL)
+		return (NULL);
+	if (s2 == NULL)
+		return (NULL);
+
 	i = 0;
 	while (s1[i] != '\0')
 		i++;
@@ -21,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	/* Get second string length */
 	r = i + x;
 
-	s = malloc(r * sizeof(char));
+	s = malloc(r + 1 * sizeof(char));
 
 	m = 0;
 	x = 0;
