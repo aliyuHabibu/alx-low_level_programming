@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#define ABS(x) (x * -1) if (x < 0)
+#define ABS(x) ((x) < 0 ? (x) * -1 : (x))
 
 
 #endif /* FUNCTION_LIKE_MACRO_H */
