@@ -3,8 +3,14 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-struct dog{
+/**
+ * struct dog - function defined struct
+ * @name: first element
+ * @age: second element
+ * @owner: third elemnt
+ */
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
