@@ -2,8 +2,8 @@
 
 /**
  * _strstr - function name
- * @haystack - main string
- * @needle: substring
+ * @haystack: first pointer
+ * @needle: second pointer
  *
  * Return: Always char.
  */

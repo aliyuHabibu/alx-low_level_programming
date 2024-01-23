@@ -1,6 +1,6 @@
 #include "main.h"
 
-/****
+/**
  * _strspn - function name
  * @s: pointer var. 1
  * @accept: pointer var. 2
