@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_string - function name
+ * print_strings - function name
  * @separator: pointer to string to use
  * @n: number of times to print
  *
@@ -11,6 +11,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list x;
 	unsigned int i;
+
 	va_start(x, n);
 
 	if (separator == NULL)
